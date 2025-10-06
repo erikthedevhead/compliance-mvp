@@ -1,0 +1,56 @@
+# -------------------------
+# OS / Editor cruft
+# -------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Logs / coverage
+# -------------------------
+logs/
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+
+# -------------------------
+# Node / build outputs
+# -------------------------
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.next/
+**/.next/
+out/
+**/out/
+*.tsbuildinfo
+
+# -------------------------
+# Environment files (keep only the examples)
+# -------------------------
+**/.env
+**/.env.*
+!**/.env.example
+
+# -------------------------
+# Prisma (SQLite leftovers; harmless if unused)
+# -------------------------
+**/prisma/*.db
+**/prisma/*.db-journal
+
+# -------------------------
+# Tooling
+# -------------------------
+.vercel/
+# Keep Fly config, but ignore any local state if created
+.fly/
